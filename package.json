@@ -3,20 +3,35 @@
   "version": "1.0.0",
   "description": "A project with some helpful shopify utilities",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattlucian/shopify-utils.git"
+    "url": "https://github.com/mattlucian/shopify-utils.git"
   },
-  "keywords": [
-    "shopify"
-  ],
-  "author": "Matt Myers",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mattlucian/shopify-utils/issues"
+  "bugs": "https://github.com/mattlucian/shopify-utils/issues",
+  "readme": "https://github.com/mattlucian/shopify-utils#readme",
+  "keywords": [],
+  "author": {
+    "name": "Matt Myers",
+    "email": "matt@idevelop.tech",
+    "url": "https://idevelop.tech"
   },
-  "homepage": "https://github.com/mattlucian/shopify-utils#readme"
+  "contributors": [],
+  "scripts": {
+    "flatten": "nodemon --exec babel-node src/index.js flatten"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "csv-parse": "^5.5.6",
+    "csv-stringify": "^6.5.1",
+    "nodemon": "^3.1.7"
+  }
 }

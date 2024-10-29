@@ -1,0 +1,22 @@
+{
+  "name": "shopify-utils",
+  "version": "1.0.0",
+  "description": "A project with some helpful shopify utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattlucian/shopify-utils.git"
+  },
+  "keywords": [
+    "shopify"
+  ],
+  "author": "Matt Myers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattlucian/shopify-utils/issues"
+  },
+  "homepage": "https://github.com/mattlucian/shopify-utils#readme"
+}
